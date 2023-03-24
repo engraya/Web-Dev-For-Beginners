@@ -5,7 +5,7 @@
   "private": true,
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node init && node server.js",
     "lint": "eslint",
     "format": "prettier --single-quote --write *.js"
   },
